@@ -25,11 +25,9 @@ const Dashboard = () => {
                 </div>
 
                 <div className="py-3">
-                    <h2 className="text-primary">Todas as Vendas</h2>
-
+                    <h2 className="text-center text-primary">Todas as Vendas</h2>
                 </div>
-
-                <DataTable />
+                <DataTable/>
             </div>
             <Footer />
         </>
