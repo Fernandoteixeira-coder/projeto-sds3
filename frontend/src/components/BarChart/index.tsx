@@ -2,8 +2,8 @@ import axios from 'axios'
 import Chart from 'react-apexcharts'
 import { useEffect, useState } from 'react'
 import { SaleSuccess } from 'types/sale'
-import { BASE_URL } from 'Utils/requests'
-import { round } from 'Utils/format'
+import { BASE_URL } from 'utils/requests'
+import { round } from 'utils/format'
 
 type SeriesData ={
 
